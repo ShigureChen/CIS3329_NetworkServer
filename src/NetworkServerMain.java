@@ -13,6 +13,6 @@ public class NetworkServerMain {
         Date date = new Date();
 
         System.out.println("Your IP address: " + IP);
-        System.out.println("Current date and time: " + date.getTime());
+        System.out.println("Current date and time: " + date.toString());
     }
 }
